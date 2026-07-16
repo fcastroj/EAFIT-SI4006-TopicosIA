@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Validación barata: sin GPU y sin ejecutar notebooks. Solo comprueba que el
+# material está bien formado y que los enlaces resuelven.
+jobs:
+  validar:
+    name: Validar material
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Instalar herramientas
+        run: pip install nbformat ruff
+
+      - name: Validar que cada .ipynb es JSON válido y parsea con nbformat
+        run: |
+          python - <<'PY'
+          import glob, sys, nbformat
+          fallos = []
+          for f in glob.glob("**/*.ipynb", recursive=True):
+              try:
+                  nbformat.read(f, as_version=4)
+                  print(f"ok  {f}")
+              except Exception as e:
+                  fallos.append((f, str(e)))
+                  print(f"ERR {f}: {e}")
+          sys.exit(1 if fallos else 0)
+          PY
+
+      - name: Verificar que cada carpeta de sesión tiene su README
+        run: |
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+          faltan = [
+              f"sesiones/s{n:02d}"
+              for n in range(1, 17)
+              if not Path(f"sesiones/s{n:02d}/README.md").is_file()
+          ]
+          if faltan:
+              print("Falta README.md en:", ", ".join(faltan))
+              sys.exit(1)
+          print("Todas las carpetas de sesión tienen README.md")
+          PY
+
+      - name: Ruff (lint, solo .py — los notebooks se dejan intactos)
+        run: ruff check . --extend-exclude '*.ipynb'
+
+  enlaces:
+    name: Verificar enlaces
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: lychee — enlaces rotos (incluye badges de Colab)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --include-verbatim './**/*.md' './**/*.ipynb'
+          fail: true

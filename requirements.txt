@@ -1,0 +1,12 @@
+# Dependencias fijadas para el material del curso SI4006.
+#
+# Las versiones están ancladas a propósito: transformers==4.49.0 es el piso
+# que soporta Qwen2.5 (texto), SmolVLM (multimodal) y el pipeline
+# 'image-text-to-text' con la API estándar (sin trust_remote_code). Subir o
+# bajar esta versión rompe el notebook de la Sesión 1 en Colab.
+transformers==4.49.0
+accelerate>=0.34
+sentence-transformers>=3.0
+sentencepiece
+pillow
+num2words
