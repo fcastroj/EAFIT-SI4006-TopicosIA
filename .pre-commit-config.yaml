@@ -1,0 +1,36 @@
+# Configuración de pre-commit para el repositorio del curso SI4006.
+# Instalar con:  pip install pre-commit && pre-commit install
+# Ejecutar sobre todo el repo:  pre-commit run --all-files
+
+repos:
+  # Limpia los outputs de los notebooks antes de cada commit.
+  # Decisión deliberada: los notebooks del curso ya traen celdas markdown con
+  # el resultado esperado (un "Plan B" para cuando no hay GPU o internet), así
+  # que no dependen de outputs guardados. Limpiarlos mantiene los diffs
+  # legibles y el repositorio liviano.
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.7.1
+    hooks:
+      - id: nbstripout
+
+  # Lint + format de código Python. Solo sobre .py: los notebooks del curso se
+  # dejan tal cual (su estilo es material didáctico), y sus outputs los limpia
+  # nbstripout más arriba.
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.9
+    hooks:
+      - id: ruff
+        args: [--fix]
+        types_or: [python, pyi]
+      - id: ruff-format
+        types_or: [python, pyi]
+
+  # Higiene básica de archivos.
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-merge-conflict
+      - id: check-added-large-files
+        args: [--maxkb=5120]  # 5 MB — este repo no es para pesos de modelos
