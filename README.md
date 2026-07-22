@@ -142,7 +142,7 @@ Hugging Face Spaces.
 - **Docente:** Manuela Larrea Gómez — [mlarreag@eafit.edu.co](mailto:mlarreag@eafit.edu.co)
 - **Canal oficial del curso:** Microsoft Teams
 
-Para erratas o notebooks que no corren, abre un [issue](../../issues); para dudas
+Para erratas o notebooks que no corren, abre un [issue](https://github.com/manularrea/EAFIT-SI4006/issues); para dudas
 administrativas y de entregas, usa Teams.
 
 ## Licencia
