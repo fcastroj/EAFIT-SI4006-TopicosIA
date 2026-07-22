@@ -7,7 +7,7 @@ no corren.
 
 ## Reportar un error en el material
 
-1. Revisa los [issues abiertos](../../issues) por si alguien ya lo reportó.
+1. Revisa los [issues abiertos](https://github.com/manularrea/EAFIT-SI4006/issues) por si alguien ya lo reportó.
 2. Abre un issue con la plantilla **Error en el material**.
 3. Indica la sesión, el archivo y —si aplica— la celda y el mensaje de error.
 
