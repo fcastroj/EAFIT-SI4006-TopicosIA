@@ -88,7 +88,7 @@ Si entiendes por qué la salida son fragmentos y no palabras completas, ya llega
 
 ---
 
-## Si sigues perdida después de esto
+## Si sigues perdido después de esto
 
 No es fracaso, es el punto de partida — y lo dijimos el primer día: el salón no es homogéneo y está bien. Dos caminos:
 
