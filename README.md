@@ -63,7 +63,7 @@ flowchart TD
 | # | Módulo | Tema | Material | Colab |
 |:--:|:--:|------|:--:|:--:|
 | 01 | Encuadre | Encuadre y demo de capacidades | [Ver](sesiones/s01/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s01/S01_Demo_Capacidades.ipynb) |
-| 02 | M1 | Transformers y fine-tuning con Hugging Face | [Ver](sesiones/s02/) | — |
+| 02 | M1 | Transformers y fine-tuning con Hugging Face | [Ver](sesiones/s02/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s02/S02_Lab_Abrir_la_caja.ipynb) |
 | 03 | M1 | Transformers y fine-tuning con Hugging Face | [Ver](sesiones/s03/) | — |
 | 04 | M1 | Transformers y fine-tuning con Hugging Face | [Ver](sesiones/s04/) | — |
 | 05 | M2 | Evaluación de sistemas generativos | [Ver](sesiones/s05/) | — |
@@ -94,12 +94,13 @@ parcial individual.
 | Parcial individual (módulos 1 y 2) | S09 | 15% |
 | M3 — Sistema RAG + evaluación RAGAS | S10 | 15% |
 | M4 — Pipeline multimodal + casos de prueba | S13 | 10% |
-| Proyecto final — demo desplegada + presentación + reporte | S16 | 40% |
+| Proyecto final — demo desplegada + presentación + reporte (Nota: Penalizacion por inasistencia)  | S16 | 30% |
+| Asistencia | S16 | 10% |
 | **Total** | | **100%** |
 
 ## Proyecto integrador
 
-Hilo conductor del curso: un proyecto en equipos de 3–4 personas que crece
+Hilo conductor del curso: un proyecto en equipos de 4-5 personas que crece
 módulo a módulo hasta una demo pública desplegada. Arranca en la Sesión 1 con la
 definición del problema y el usuario.
 
@@ -135,7 +136,10 @@ Hugging Face Spaces.
 
 ## Política de uso de IA
 
-<!-- TODO: la docente redacta la política de uso de IA del curso. -->
+Las herramientas de inteligencia artificial están para usarse. Como estudiantes, pueden apoyarse en soluciones como ChatGPT, Claude, Gemini u otras herramientas similares para desarrollar sus actividades y proyectos.
+Sin embargo, su uso no reemplaza la comprensión de los conceptos ni el criterio profesional. Cada estudiante debe estar en capacidad de explicar, justificar y defender las decisiones tomadas en su trabajo.
+Toda información generada con apoyo de inteligencia artificial debe ser revisada, contrastada y validada con fuentes confiables. Durante las sustentaciones, ustedes serán responsables de la precisión de la información presentada. Si una respuesta, afirmación o decisión es incorrecta, la responsabilidad no será de la herramienta utilizada, sino de quien decidió incorporarla sin verificarla.
+El objetivo no es evitar el uso de la inteligencia artificial, sino aprender a utilizarla de manera crítica, responsable y consciente.
 
 ## Contacto
 
