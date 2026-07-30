@@ -64,7 +64,7 @@ flowchart TD
 |:--:|:--:|------|:--:|:--:|
 | 01 | Encuadre | Encuadre y demo de capacidades | [Ver](sesiones/s01/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s01/S01_Demo_Capacidades.ipynb) |
 | 02 | M1 | Transformers y fine-tuning con Hugging Face | [Ver](sesiones/s02/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s02/S02_Lab_Abrir_la_caja.ipynb) |
-| 03 | M1 | Transformers y fine-tuning con Hugging Face | [Ver](sesiones/s03/) | — |
+| 03 | M1 | Transformers y fine-tuning con Hugging Face | [Ver](sesiones/s03/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s03/S03_Lab_El_bloque_y_las_familias.ipynb)|
 | 04 | M1 | Transformers y fine-tuning con Hugging Face | [Ver](sesiones/s04/) | — |
 | 05 | M2 | Evaluación de sistemas generativos | [Ver](sesiones/s05/) | — |
 | 06 | M2 | Evaluación de sistemas generativos | [Ver](sesiones/s06/) | — |
