@@ -33,9 +33,9 @@ Ejemplo:
 del ciudadano. -->
 > Clasificación de texto multiclase. El modelo recibe el enunciado del ejercicio más el paso específico que escribió el estudiante (junto con el paso anterior como contexto), y devuelve una etiqueta con el tipo de error en ese paso, o "correcto" si no lo hay. Categorías propuestas: error de signo, error al despejar la variable, error de jerarquía de operaciones, error de simplificación, error conceptual (por ejemplo, mal teorema aplicado en geometría).
 > 
-> BETO — dccuchile/bert-base-spanish-wwm-cased: BERT entrenado desde cero en español, licencia CC BY 4.0, liviano para fine-tuning en Colab gratis. Opción principal.
+> BETO — dccuchile/bert-base-spanish-wwm-cased: BERT entrenado desde cero en español, licencia CC BY 4.0, liviano para fine-tuning en Colab gratis. Opción principal. https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased
 >
-> PlanTL-GOB-ES/roberta-base-bne: RoBERTa en español entrenado por la Biblioteca Nacional de España, buena alternativa si quieren comparar resultados.
+> PlanTL-GOB-ES/roberta-base-bne: RoBERTa en español entrenado por la Biblioteca Nacional de España, buena alternativa si quieren comparar resultados. https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne
 ---
 ## 4. Dataset + licencia
 <!-- Ejemplo: 1.200 solicitudes históricas anonimizadas; licencia de uso
