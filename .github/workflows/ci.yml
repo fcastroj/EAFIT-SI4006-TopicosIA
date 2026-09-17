@@ -44,9 +44,9 @@ jobs:
           import sys
           from pathlib import Path
           faltan = [
-              f"sesiones/s{n:02d}"
+              f"s{n:02d}"
               for n in range(1, 17)
-              if not Path(f"sesiones/s{n:02d}/README.md").is_file()
+              if not Path(f"s{n:02d}/README.md").is_file()
           ]
           if faltan:
               print("Falta README.md en:", ", ".join(faltan))
