@@ -71,8 +71,8 @@ flowchart TD
 | 07 | M3 | RAG, agentes, tool use, RAGAS | [Ver](sesiones/s07/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s07/S07_Lab_RAG_ingenuo.ipynb) |
 | 08 | M3 | RAG, agentes, tool use, RAGAS | [Ver](sesiones/s08/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s08/S08_Lab_RAG_avanzado.ipynb) |
 | 09 | Parcial | Parcial individual (módulos 1 y 2) | [Ver](sesiones/s09/) | — |
-| 10 | M3 | RAG, agentes, tool use, RAGAS | [Ver](sesiones/s10/) | — |
-| 11 | M4 | ViT, CLIP, multimodales, difusión | [Ver](sesiones/s11/) | — |
+| 10 | M3 | RAG, agentes, tool use, RAGAS | [Ver](sesiones/s10/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s10/S10_Lab_Agentic_RAG_RAGAS.ipynb)  |
+| 11 | M4 | ViT, CLIP, multimodales, difusión | [Ver](sesiones/s11/) | - |
 | 12 | M4 | ViT, CLIP, multimodales, difusión | [Ver](sesiones/s12/) | — |
 | 13 | M4 | ViT, CLIP, multimodales, difusión | [Ver](sesiones/s13/) | — |
 | 14 | M5 | Destilación, quantization, serving, MLOps | [Ver](sesiones/s14/) | — |
