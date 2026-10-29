@@ -76,11 +76,11 @@ avanza el semestre.
 | 08 | M3 | RAG, agentes, tool use, RAGAS | [Ver](sesiones/s08/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s08/S08_Lab_RAG_avanzado.ipynb) |
 | 09 | Parcial | Parcial individual (módulos 1 y 2) | [Ver](sesiones/s09/) | — |
 | 10 | M3 | RAG, agentes, tool use, RAGAS | [Ver](sesiones/s10/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s10/S10_Lab_Agentic_RAG_RAGAS.ipynb) |
-| 11 | M4 | ViT, CLIP, multimodales, difusión | [Ver](sesiones/s11/) | — |
-| 12 | M4 | ViT, CLIP, multimodales, difusión | [Ver](sesiones/s12/) | — |
-| 13 | M4 | ViT, CLIP, multimodales, difusión | [Ver](sesiones/s13/) | — |
-| 14 | M5 | Destilación, quantization, serving, MLOps | [Ver](sesiones/s14/) | — |
-| 15 | M5 | Destilación, quantization, serving, MLOps | [Ver](sesiones/s15/) | — |
+| 11 | M4 | ViT, CLIP, multimodales, difusión | [Ver](sesiones/s11/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s11/S11_Lab_Vision.ipynb) |
+| 12 | M4 | ViT, CLIP, multimodales, difusión | [Ver](sesiones/s12/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s12/S12_Lab_Difusion.ipynb) |
+| 13 | M4 | ViT, CLIP, multimodales, difusión | [Ver](sesiones/s13/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s13/S13_Lab_Integracion_Visual.ipynb) |
+| 14 | M5 | Destilación, quantization, serving, MLOps | [Ver](sesiones/s14/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s14/S14_Lab_Destilacion.ipynb) |
+| 15 | M5 | Destilación, quantization, serving, MLOps | [Ver](sesiones/s15/) | [![Colab](https://img.shields.io/badge/Abrir-Colab-1f4e79?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/manularrea/EAFIT-SI4006/blob/main/sesiones/s15/S15_Lab_Despliegue.ipynb) |
 | 16 | Cierre | Demos finales | [Ver](sesiones/s16/) | — |
 
 ## Evaluación
